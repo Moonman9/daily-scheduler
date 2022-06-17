@@ -9,6 +9,15 @@ $('.saveBtn').on('click', function(){
     localStorage.setItem(time, body);
 });
 
+$('#9 .body').val(localStorage.getItem('9'));
+$('#10 .body').val(localStorage.getItem('10'));
+$('#11 .body').val(localStorage.getItem('11'));
+$('#12 .body').val(localStorage.getItem('12'));
+$('#13 .body').val(localStorage.getItem('13'));
+$('#14 .body').val(localStorage.getItem('14'));
+$('#15 .body').val(localStorage.getItem('15'));
+$('#16 .body').val(localStorage.getItem('16'));
+$('#17 .body').val(localStorage.getItem('17'));
 
 function timeBlockClass() {
     var currentTime = moment().hour();
